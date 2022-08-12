@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
+
+main {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#f0483a,#d10a20);
+}
