@@ -93,3 +93,20 @@ header {
 .btn:hover {
   letter-spacing: 2px;
 }
+
+.slider {
+  position: relative;
+}
+
+.slider .slides {
+  display: none;
+}
+
+.slider .slides.active {
+  display: block;
+}
+
+.slider .slides img {
+  width: 100%;
+  max-width: 600px;
+}
