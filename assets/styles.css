@@ -10,3 +10,33 @@ main {
   min-height: 100vh;
   background: radial-gradient(#f0483a,#d10a20);
 }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+}
